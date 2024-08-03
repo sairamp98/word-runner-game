@@ -46,16 +46,17 @@ function matching(){
         isPlaying = true;
         time = 6;
         score++;
-        if(score<=10) {
+        if(score>=0 && score<=10) {
             wordLength = 3 + Math.floor(Math.random()*3);
-            console.log(wordLength);
+            //console.log(wordLength);
         }
         else if(score>10 && score <=20) {
             wordLength = 3 + Math.floor(Math.random()*5);
-            console.log(wordLength);
+            //console.log(wordLength);
         }
         else{
-            wordLength = 3 + Math.floor(Math.random()*8);
+            wordLength = 5 + Math.floor(Math.random()*8);
+            //console.log(wordLength);
         }
 
         fetchWord(wordLength);
