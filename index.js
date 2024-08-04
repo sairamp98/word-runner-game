@@ -23,7 +23,6 @@ function init(){
     wordInput.addEventListener('input', matching);
     setInterval(timer, 1000);
     setInterval(checkStatus, 50);
-
 }
 function timer(){
     if(time>0) {
@@ -37,7 +36,6 @@ function timer(){
 function checkStatus() {
     if(!isPlaying && time===0) {
         msg.innerHTML = "Game Over! Retype the word to play again."
-        wordInput.value = '';
         score = -1;
     }
 }
@@ -48,17 +46,16 @@ function matching(){
         score++;
         if(score>=0 && score<=10) {
             wordLength = 3 + Math.floor(Math.random()*3);
-            //console.log(wordLength);
+            console.log(wordLength);
         }
         else if(score>10 && score <=20) {
             wordLength = 3 + Math.floor(Math.random()*5);
-            //console.log(wordLength);
+            console.log(wordLength);
         }
         else{
             wordLength = 5 + Math.floor(Math.random()*8);
-            //console.log(wordLength);
+            
         }
-
         fetchWord(wordLength);
         wordInput.value = '';
     }
@@ -75,7 +72,7 @@ function wordMatch(){
         return true;
     }
     else{
-        
+        //wordInput.value = '';
         return false;
     }
 }
