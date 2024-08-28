@@ -20,15 +20,9 @@
 - If the timer runs out, the game is over. Retype the current word to restart the game.
 
 ## Installation
-
-### Clone the Repository
 To set up the game on your local machine, follow these steps:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/username/repository-name.git
-
-## Step 2: Clone the Repository
+## Step 1: Clone the Repository
 1. **Open Terminal/Command Prompt**:
    - Navigate to the directory where you want to store the project.
 2. **Clone the Repository**:
@@ -40,11 +34,11 @@ To set up the game on your local machine, follow these steps:
    ```bash
    cd repository-name
 
-## Step 3: Set Up the Project
+## Step 2: Set Up the Project
 1. **Check for Dependencies**:
    - Look for a `README.md` or other documentation files in the repository that might provide instructions on setting up the project.
 
-## Step 4: Run the Game
+## Step 3: Run the Game
 1. **Run the Application**:
    - Depending on the project type, there may be different ways to run the game:
      - Since it’s a web-based game, open the `index.html` file in your web browser.
@@ -52,7 +46,7 @@ To set up the game on your local machine, follow these steps:
 2. **Testing**:
    - If applicable, you can run tests to ensure everything is set up correctly.
 
-## Step 5: Start Developing or Playing!
+## Step 4: Start Developing or Playing!
 1. **Explore the Code**:
    - Open the project in your preferred text editor or IDE (like VS Code, IntelliJ, etc.).
 2. **Modify or Play the Game**:
