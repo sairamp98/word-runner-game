@@ -6,14 +6,8 @@
 ## Live link to the game: https://wordrunnersairamp98.netlify.app/
 
 ## Table of Contents
-- [Installation](#installation)
 - [Game Instructions](#game-instructions)
-
-## Installation
-
-### Prerequisites
-Before you can run the game locally, ensure that you have the following installed:
-- **Node.js** (v20.16.0 or later)
+- [Installation](#installation)
 
 ## Game Instructions
 - The word will appear on the screen with a countdown timer.
@@ -24,6 +18,8 @@ Before you can run the game locally, ensure that you have the following installe
 -   Score 11-20: Medium words (4-7 letters)
 -   Score 21+: Longer words (5-12 letters)
 - If the timer runs out, the game is over. Retype the current word to restart the game.
+
+## Installation
 
 ### Clone the Repository
 To set up the game on your local machine, follow these steps:
